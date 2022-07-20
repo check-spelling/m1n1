@@ -1,0 +1,35 @@
+# See https://github.com/check-spelling/check-spelling/wiki/Configuration-Examples:-patterns
+
+# cspell dictionaries
+cspell:\S+?\.txt
+
+# hex digits including css/html color classes:
+(?:[\\0][xX]|\\u|[uU]\+|#x?|\%23)[0-9a-fA-FgGrR_]{2,}(?:[uUlL]{0,3}|u\d+)\b
+\b[0-9a-f]{8,}\b
+\b[0-9A-F]{8,}\b
+
+# URL escaped characters
+\%[0-9A-F]{2}
+
+\.fromhex\('[^']*'
+
+# Compiler flags
+[\t "'`=(]-[DFW]
+[\t "'`=(]-f(?!latten|ont|ill)
+
+# Python stringprefix / binaryprefix
+\b(?:B|BR|Br|F|FR|Fr|R|RB|RF|Rb|Rf|U|UR|Ur|b|bR|br|f|fR|fr|r|rB|rF|rb|rf|u|uR|ur)'
+
+# version suffix <word>v#
+[Vv]\d+(?:\b|(?=[a-zA-Z_]))
+
+# acceptable duplicates
+# ls directory listings
+[-bcdlpsw](?:[-r][-w][-sx]){3}\s+\d+\s+(\S+)\s+\g{-1}\s+\d+\s+
+# C types
+\s(long|LONG) \g{-1}\s
+# javadoc / .net
+(?:\@(?:groupname|param)|(?:public|private)(?:\s+static|\s+readonly)*)\s+(\w+)\s+\g{-1}\s
+
+# ignore long runs of a single character:
+\b([A-Za-z])\g{-1}{3,}\b
