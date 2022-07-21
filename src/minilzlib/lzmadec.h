@@ -54,7 +54,7 @@ Environment:
 //
 // Distances can be encoded in different ways, based on the distance slot.
 // Lengths of 2, 3, 4 bytes are directly encoded with their own slot. Lengths
-// over 5 share a slot, which is then further subdivded into 3 different ways
+// over 5 share a slot, which is then further subdivided into 3 different ways
 // of encoding them, which are described in the source.
 //
 #define LZMA_DISTANCE_SLOTS                 64
