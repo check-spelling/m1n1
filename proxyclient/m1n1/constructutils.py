@@ -171,7 +171,7 @@ class ReloadableConstructMeta(ReloadableMeta, Construct):
 class ConstructClassBase(Reloadable, metaclass=ReloadableConstructMeta):
     """ Offers two benefits over regular construct
 
-        1. It's reloadable, and can recursively reload other refrenced ConstructClasses
+        1. It's reloadable, and can recursively reload other referenced ConstructClasses
         2. It's a class, so you can define methods
 
         Currently only supports parsing, but could be extended to support building
@@ -345,7 +345,7 @@ class ROPointer(Pointer):
 class ConstructClass(ConstructClassBase, Container):
     """ Offers two benefits over regular construct
 
-        1. It's reloadable, and can recursively reload other refrenced ConstructClasses
+        1. It's reloadable, and can recursively reload other referenced ConstructClasses
         2. It's a class, so you can define methods
 
         Currently only supports parsing, but could be extended to support building
