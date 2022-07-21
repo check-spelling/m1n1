@@ -1489,7 +1489,7 @@ int fdt_pack(void *fdt);
  * @address, @size: 64-bit values (native endian)
  *
  * Adds a reserve map entry to the given blob reserving a region at
- * address address of length size.
+ * address of length size.
  *
  * This function will insert data into the reserve map and will
  * therefore change the indexes of some entries in the table.
