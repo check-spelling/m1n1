@@ -127,7 +127,7 @@ class ConstructClassException(Exception):
     pass
 
 
-# We need to inherrit Construct as a metaclass so things like If and Select will work
+# We need to inherit Construct as a metaclass so things like If and Select will work
 class ReloadableConstructMeta(ReloadableMeta, Construct):
 
     def __new__(cls, name, bases, attrs):
