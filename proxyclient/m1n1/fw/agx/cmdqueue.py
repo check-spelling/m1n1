@@ -28,7 +28,7 @@ class WorkCommandBarrier(ConstructClass):
 
 class WorkCommandInitBM(ConstructClass):
     """
-        occationally sent before WorkCommandTA on the SubmitTA queue.
+        occasionally sent before WorkCommandTA on the SubmitTA queue.
 
     Example:
     00000004 0c378018 ffffffa0 00000c00 00000006 00000900 08002c9a 00000000
