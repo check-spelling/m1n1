@@ -673,7 +673,7 @@ class FinalizeComputeCmd(ConstructClass):
         "unk_50" / Int32ul,
         "unk_54" / Int32ul,
         "unk_58" / Int32ul,
-        "startcmd_offset" / Int32sl, # realative offset from start of Finalize to StartComputeCmd
+        "startcmd_offset" / Int32sl, # relative offset from start of Finalize to StartComputeCmd
         "unk_60" / Int32ul,
     )
 
