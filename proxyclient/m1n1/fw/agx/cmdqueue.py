@@ -392,7 +392,7 @@ class CommandQueueInfo(ConstructClass):
     """ Structure type shared by Submit3D, SubmitTA and SubmitCompute
         Applications have multiple of these, one of each submit type
         TODO: Can applications have more than one of each type? One per encoder?
-        Mostly managed by GPU, only intialize by CPU
+        Mostly managed by GPU, only initialize by CPU
 
     """
     subcon = Struct(

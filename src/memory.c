@@ -87,7 +87,7 @@ static inline void write_sctlr(u64 val)
  * [L1 index]  [L2 index]  [L3 index] [page offset]
  *   12 bits     11 bits     11 bits    14 bits
  *
- * We initalize one double-size L1 table which covers the entire virtual memory space,
+ * We initialize one double-size L1 table which covers the entire virtual memory space,
  * point to the two halves in the single L0 table and then create L2/L3 tables on demand.
  */
 
@@ -491,7 +491,7 @@ void mmu_init(void)
     printf("MMU: Initializing...\n");
 
     if (read_sctlr() & SCTLR_M) {
-        printf("MMU: already intialized.\n");
+        printf("MMU: already initialized.\n");
         return;
     }
 
