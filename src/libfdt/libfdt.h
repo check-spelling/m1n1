@@ -2050,7 +2050,7 @@ int fdt_del_node(void *fdt, int nodeoffset);
  * returns:
  *	0, on success
  *	-FDT_ERR_NOSPACE, there's not enough space in the base device tree
- *	-FDT_ERR_NOTFOUND, the overlay points to some inexistant nodes or
+ *	-FDT_ERR_NOTFOUND, the overlay points to some nonexistent nodes or
  *		properties in the base DT
  *	-FDT_ERR_BADPHANDLE,
  *	-FDT_ERR_BADOVERLAY,
