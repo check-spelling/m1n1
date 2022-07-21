@@ -9,7 +9,7 @@ __all__ = []
 class WorkCommandBarrier(ConstructClass):
     """
         sent before WorkCommand3D on the Submit3d queue.
-        Might be for initilzing the tile buckets?
+        Might be for initializing the tile buckets?
 
     Example:
     00000004 0c378018 ffffffa0 00000c00 00000006 00000900 08002c9a 00000000
