@@ -205,7 +205,7 @@ KNOWN_MSGS = {
     "A020": "IOMFB::UPPipeAP_H13P::rt_bandwidth_setup()",
     "A021": "IOMFB::UPPipeAP_H13P::rt_bandwidth_update(IOMFB::AppleRegisterStream*, float, float, bool, bool)",
     "A022": "IOMFB::UPPipeAP_H13P::rt_bandwidth_update_downgrade(IOMFB::AppleRegisterStream*)",
-    "A023": "IOMFB::UPPipeAP_H13P::rt_bandwidth_write_update(IOMFB::AppleRegisterStream*, RealtimeBandwithWritebackBlock, bool)",
+    "A023": "IOMFB::UPPipeAP_H13P::rt_bandwidth_write_update(IOMFB::AppleRegisterStream*, RealtimeBandwidthWritebackBlock, bool)",
     "A024": "IOMFB::UPPipeAP_H13P::cif_blending_eco_present()",
     "A025": "IOMFB::UPPipeAP_H13P::request_bic_update()",
     "A026": "IOMFB::UPPipeAP_H13P::early_power_off_warning(IOMFB::AppleRegisterStream*)",
