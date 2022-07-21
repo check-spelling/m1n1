@@ -1596,7 +1596,7 @@ int fdt_setprop(void *fdt, int nodeoffset, const char *name,
  * @len: length of the property value
  * @prop_data: return pointer to property data
  *
- * fdt_setprop_placeholer() allocates the named property in the given node.
+ * fdt_setprop_placeholder() allocates the named property in the given node.
  * If the property exists it is resized. In either case a pointer to the
  * property data is returned.
  *
