@@ -169,7 +169,7 @@ class ReloadableConstructMeta(ReloadableMeta, Construct):
         return cls
 
 class ConstructClassBase(Reloadable, metaclass=ReloadableConstructMeta):
-    """ Offers two benifits over regular construct
+    """ Offers two benefits over regular construct
 
         1. It's reloadable, and can recusrivly reload other refrenced ConstructClasses
         2. It's a class, so you can define methods
@@ -343,7 +343,7 @@ class ROPointer(Pointer):
         return obj
 
 class ConstructClass(ConstructClassBase, Container):
-    """ Offers two benifits over regular construct
+    """ Offers two benefits over regular construct
 
         1. It's reloadable, and can recusrivly reload other refrenced ConstructClasses
         2. It's a class, so you can define methods
