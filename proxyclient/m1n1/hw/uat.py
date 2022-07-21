@@ -19,7 +19,7 @@ __all__ = []
 class MemoryAttr(IntEnum):
     Normal = 0 # Only accessed by the gfx-asc coprocessor
     Device = 1
-    Shared = 2 # Probally Outer-shareable. Shared with either the main cpu or AGX hardware
+    Shared = 2 # Probably Outer-shareable. Shared with either the main cpu or AGX hardware
 
 
 class TTBR(Register64):
@@ -41,7 +41,7 @@ class TTBR(Register64):
 
 class PTE(Register64):
     OFFSET = 47, 14
-    UNK0   = 10 # probally an ownership flag, seems to be 1 for FW created PTEs and 0 for OS PTEs
+    UNK0   = 10 # probably an ownership flag, seems to be 1 for FW created PTEs and 0 for OS PTEs
     TYPE   = 1
     VALID  = 0
 
